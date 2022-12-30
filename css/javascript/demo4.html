@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc()
+        {
+       fname = document.getElementById('fname').value;
+       lname = document.getElementById('lname').value;
+       fullname= fname + " "+lname;
+       document.getElementById('fullname').value= fullname;
+    
+        }
+    </script>
+</head>
+<body>
+    <marquee onmouseover="stop()" onmouseout="start()"> 
+        <h1>HI Welcome to Web Application ....!</h1>
+    </marquee>
+    First Name :<input type="text" id="fname" ><br>
+    last name  :<input type="text" id="lname"><br>
+    Full Name  :<input type="text" id="fullname"><br>
+    <input type="button" value="CLICK" onclick="abc()">
+
+    <input type="button" value="Double CLICK" ondblclick="abc()">
+</body>
+</html>
+onclick
+ondblclick
+onmouseout
+onmouseover

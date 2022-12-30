@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            age =parseInt( document.getElementById('myage').value);
+            if(age<18)
+            {
+                alert("Invalid Age , please enter once again ")
+                // it gives some alter 
+                
+                myage= parseInt( prompt("Enter valid Age ...!"))
+                // we can enter some value
+                if(myage<18)
+                {
+                    alert("Invalid age ")
+                }
+                else{
+                    confirm("is it your correct age ? ")
+                    // yes or no 
+                }
+            }
+            else{
+                alert("Name is Okay ")
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    Age : <input type="text" id="myage">
+    <input type="button" value="CLICK" onclick="abc()">
+</body>
+</html>

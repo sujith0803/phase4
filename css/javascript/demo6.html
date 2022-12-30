@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myvalidate(){
+            name=document.getElementById('uname').value;
+            if(name.length==0|| name.length == null || name.length==undefined)
+            {
+               // console.log("Name must be requried ...!")
+               document.getElementById('msg').innerHTML="<p style='color:red'>Name Must be requried...!</p>";
+            }
+            else if(name.length>0 && name.length<3)
+            {
+                //console.log("Name must be min 3 char ")
+                document.getElementById('msg').innerHTML="<p style='color:red'>Name must be min 3 char</p> "
+            }
+            else if(name.length>10)
+            {
+                //console.log("Name must be less the 10 and more then 2 ")
+                document.getElementById('msg').innerHTML="<p style='color:red'>Name must be max 10  char</p> "
+            }
+            else{
+                //console.log("All okay ...!")
+                document.getElementById('msg').innerHTML="<p style='color:green'>Success...!</p> "
+            }
+
+        }
+    </script>
+</head>
+<body>
+    Name :<br>
+    <input type="text" id="uname"><br>
+    <span id="msg"></span>
+    <input type="submit" onclick="myvalidate()">
+</body>
+</html>
