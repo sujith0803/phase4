@@ -1,0 +1,262 @@
+Phase- 4 
+			Anagular
+			
+
+				HTML
+				CSS 
+				JavaScript  
+				TypeScript 
+					Angualr 
+
+
+
+
+				VS Code : https://code.visualstudio.com/
+				NOde js : https://nodejs.org/en/download/
+				postman : https://www.postman.com/downloads/
+				Git 	   :https://desktop.github.com/ 
+				
+					
+
+	
+	
+			HTML : 
+title 
+head 
+br 
+p 
+hr 
+table 
+
+	tr 
+	td 
+	th 
+	cellpadding 
+	cellspacing 
+	rowspan 
+	colspan 
+List Demo 
+	ol 
+	ul 
+
+Form : 
+	
+
+
+
+
+
+CSS: 
+
+		
+		Inline Style Sheet : tag level styels 
+		Embaded / internal :  only for page level 
+		External Style Sheet : .css file then we are writing the style 
+
+		Selectors : 
+				tag 
+				id 
+				class 
+				multiple tag 
+				universal selector 
+
+		box model 
+			padding 
+			margin 
+			width 
+			border propertys 
+
+			backgroubd 
+					color 
+					image 
+				
+
+	Bootrstap have to start 
+
+
+
+
+HTML
+CSS
+Bootrstap===> Css Freamwork 
+		ready articture :
+
+over css most of the things are ready made 
+
+
+Freamwork ....!
+every thing we have ready made :
+
+grid 
+text
+ text backgroud 
+ text - color 
+ button 
+ table 
+ pagination 
+ progress bar 
+ GLypicons
+ Forms :
+ colleps 
+ Model 
+ nav bar 
+ carousel
+ 
+
+
+
+
+
+
+
+
+
+
+
+			java 					javaScript 
+
+
+			Programmin lang 		Scripting lang 
+			compile 				no compiler 
+				run 					run 
+
+			slow					fast 
+			server side coding		client side coding lang  + server = 
+
+
+			Strict lang 
+				ends with semicolon 		not compsulry
+				must double quation 		not compulary 
+
+
+javascript 
+	Angualr JS 
+	React js 
+	node js 
+	express js 
+	vew js 
+	backbone js 
+	vennilla JS 
+
+server + client 
+
+
+
+
+
+
+java 
+	statements : 
+		if 
+		if else 
+		if else ladder 
+		nested if 
+		switch 
+
+	looping 
+		for 
+		while 
+		do while 
+
+	jumping 
+		break 
+		continue 
+		return 
+	
+Operators : 
+	uniry 
+	binary
+		assignament 
+		condational 
+		cpmpirion 
+		logical 
+		arethematic 
+
+	tarnary 
+
+	(a<=b) :a ? b
+
+
+Data types : 
+	Integer 
+	String 
+	boolean 
+
+
+DOM : 
+	documant object Model 
+	getEleemmtByID 
+	getEleemmtByName 
+	getEleemmtByTagName 
+	innterHtml 
+	innerText 
+	
+BOM : Browswer object Model  
+	alert 
+	confirm 
+	prompt 
+
+
+Events : 
+	 
+onclick
+ondblclick
+onmouseout
+onmouseover
+onfocus 
+onblur
+ondrag
+onload
+onsubmit 
+onselect
+
+
+
+		java 				javaScript 
+
+	Prog 					Script 
+	compiled and run		Only run 
+	slow 					fast 
+
+	only server side 		Clinet + server = so popular 
+	very Strit 				not much (); ,"" 
+
+	=======================================
+
+	
+		
+
+Type Script: 
+
+	Data Types: 
+		number 
+		String 
+		boolen 
+		any 
+	paramter : 
+		default 
+		optional 
+	Compileed and intrepted 
+
+	Oops : 
+		Inhreitance 
+			acurire the prprty from parent ot child 
+
+		Polykorphism 
+
+		abstraction 
+			hide the implemention : 
+
+		encupulation 
+				hiding the data into sinlge unit 
+
+	Export and Import 
+
+	Access modifer  : 
+		public 
+		private 
+		proteced 
+	non Access modifier 
+		static 
+		absrtact 
+		const
