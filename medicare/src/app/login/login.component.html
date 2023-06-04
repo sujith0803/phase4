@@ -1,0 +1,23 @@
+<h1>login</h1>
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+   <label>Name</label>
+   <input type="text" class="form-control" id="Name"
+   [(ngModel)] = "user.name" name="Name">
+  </div>
+  <div class="form-group">
+    <label>Email
+    </label>
+    <input type="text" class="form-control" id="Email"
+    [(ngModel)] = "user.email" name="Email">
+   </div>
+
+  <div class="form-group">
+    <label>password</label>
+    <input type="text" class="form-control" id="password"
+    [(ngModel)] = "user.password" name="password">
+   </div>
+   <button class="btn btn-success" type="submit" >Login</button>
+   <button class="btn btn-danger" type="submit" routerLink="/addAdmin">Register</button>
+  </form>
+  

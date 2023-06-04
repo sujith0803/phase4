@@ -1,0 +1,19 @@
+<div *ngIf="p1">
+    <h1>hello sujith</h1>
+</div>
+
+<ul *ngFor="let i of array">
+    <li>
+        {{i}}
+    </li>
+</ul>
+
+<input type="text" #fname>
+<input type="submit" value="add" (click)="addfruit(fname.value)">
+
+<ul *ngFor="let i of fruits">
+<li>
+    {{i}}
+</li>
+
+</ul>

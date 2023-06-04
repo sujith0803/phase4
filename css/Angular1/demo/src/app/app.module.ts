@@ -11,6 +11,8 @@ import { CarComponent } from './loan/car/car.component';
 import { BikeComponent } from './loan/bike/bike.component';
 import { HomeComponent } from './home/home.component';
 import { GalaryComponent } from './galary/galary.component';
+import { BindingComponent } from './binding/binding.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { GalaryComponent } from './galary/galary.component';
     CarComponent,
     BikeComponent,
     HomeComponent,
-    GalaryComponent
+    GalaryComponent,
+    BindingComponent,
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
